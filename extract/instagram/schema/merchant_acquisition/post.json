@@ -1,0 +1,51 @@
+[
+  {
+    "name": "node_content",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "owner_username",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "shortcode",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "posted_at",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "post_caption",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "post_n_comments",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "post_n_likes",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  }
+]

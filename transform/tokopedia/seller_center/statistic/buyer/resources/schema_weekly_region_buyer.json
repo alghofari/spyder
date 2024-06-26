@@ -1,0 +1,52 @@
+[
+    {
+        "name": "start_date", 
+        "type": "DATE", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "end_date", 
+        "type": "DATE", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "city", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "total_buyer", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "total_order", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "total_items_ordered", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "total_price_items_ordered", 
+        "type": "FLOAT", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "percentage_items_ordered", 
+        "type": "FLOAT", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "official_store", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "upload_tstamp", 
+        "type": "TIMESTAMP", 
+        "mode": "NULLABLE"
+    }
+]

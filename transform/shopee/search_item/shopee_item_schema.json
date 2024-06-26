@@ -1,0 +1,565 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "load_timestamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "category_name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "itemid",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "shopid",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "image",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "currency",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "stock",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "status",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ctime",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "sold",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "historical_sold",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "liked",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "liked_count",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "view_count",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "catid",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "brand",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "cmt_count",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "flag",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "cb_option",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "item_status",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "price",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "price_min",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "price_max",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "price_min_before_discount",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "price_max_before_discount",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "hidden_price_display",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "price_before_discount",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "has_lowest_price_guarantee",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "show_discount",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "raw_discount",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "discount",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "is_category_failed",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "size_chart",
+    "type": "STRING"
+  },
+  {
+    "fields": [
+      {
+        "mode": "REPEATED",
+        "name": "images",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "name",
+        "type": "STRING"
+      },
+      {
+        "mode": "REPEATED",
+        "name": "options",
+        "type": "STRING"
+      },
+      {
+        "mode": "REPEATED",
+        "name": "properties",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "type",
+        "type": "INTEGER"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "tier_variations",
+    "type": "RECORD"
+  },
+  {
+    "fields": [
+      {
+        "mode": "REPEATED",
+        "name": "rating_count",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "rating_star",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "rcount_with_context",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "rcount_with_image",
+        "type": "INTEGER"
+      }
+    ],
+    "mode": "NULLABLE",
+    "name": "item_rating",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "item_type",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "reference_item_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "is_adult",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "badge_icon_type",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "shopee_verified",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "is_official_shop",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "show_official_shop_label",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "show_shopee_verified_label",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "show_official_shop_label_in_title",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "is_cc_installment_payment_eligible",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "is_non_cc_installment_payment_eligible",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "coin_earn_label",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "show_free_shipping",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "preview_info",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "coin_info",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "exclusive_price_info",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bundle_deal_id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "can_use_bundle_deal",
+    "type": "BOOLEAN"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "bundle_deal_id",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "bundle_deal_label",
+        "type": "STRING"
+      }
+    ],
+    "mode": "NULLABLE",
+    "name": "bundle_deal_info",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "is_group_buy_item",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "has_group_buy_stock",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "group_buy_info",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "welcome_package_type",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "welcome_package_info",
+    "type": "INTEGER"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "add_on_deal_id",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "add_on_deal_label",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "status",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "sub_type",
+        "type": "INTEGER"
+      }
+    ],
+    "mode": "NULLABLE",
+    "name": "add_on_deal_info",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "can_use_wholesale",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "is_preferred_plus_seller",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "shop_location",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "has_model_with_available_shopee_stock",
+    "type": "BOOLEAN"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "label",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "promotion_id",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "voucher_code",
+        "type": "STRING"
+      }
+    ],
+    "mode": "NULLABLE",
+    "name": "voucher_info",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "can_use_cod",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "is_on_flash_sale",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "spl_installment_tenure",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "is_live_streaming_price",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "is_mart",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "pack_size",
+    "type": "INTEGER"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "end_time",
+        "type": "INTEGER"
+      },
+      {
+        "fields": [
+          {
+            "fields": [
+              {
+                "mode": "NULLABLE",
+                "name": "end_time",
+                "type": "INTEGER"
+              },
+              {
+                "mode": "NULLABLE",
+                "name": "hidden_promotion_price",
+                "type": "STRING"
+              },
+              {
+                "mode": "NULLABLE",
+                "name": "promotion_price",
+                "type": "STRING"
+              },
+              {
+                "mode": "NULLABLE",
+                "name": "start_time",
+                "type": "INTEGER"
+              },
+              {
+                "mode": "NULLABLE",
+                "name": "text",
+                "type": "INTEGER"
+              }
+            ],
+            "mode": "NULLABLE",
+            "name": "promo_label",
+            "type": "RECORD"
+          }
+        ],
+        "mode": "NULLABLE",
+        "name": "skin_data",
+        "type": "RECORD"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "skin_id",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "start_time",
+        "type": "INTEGER"
+      }
+    ],
+    "mode": "NULLABLE",
+    "name": "deep_discount_skin",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "is_service_by_shopee",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "spl_repayment_label_repayment",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "spl_repayment_label_text",
+    "type": "INTEGER"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "image_hash",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "image_height",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "image_width",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "type",
+        "type": "INTEGER"
+      }
+    ],
+    "mode": "NULLABLE",
+    "name": "free_shipping_info",
+    "type": "RECORD"
+  }
+]

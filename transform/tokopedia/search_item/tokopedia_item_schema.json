@@ -1,0 +1,518 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "load_timestamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "category_name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "alias",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "isqa",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "shopid",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "shopname",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "minorder",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "maxorder",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "weight",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "weightunit",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "condition",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "status",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "url",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "needprescription",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "catalogid",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "isleasing",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "isblacklisted",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "menu__id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "menu__name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "menu__url",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "menu__typename",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "category__id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "category__name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "category__title",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "category__breadcrumburl",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "category__isadult",
+    "type": "BOOLEAN"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "__typename",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "breadcrumbURL",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "id",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "isAdult",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "name",
+        "type": "STRING"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "category__detail",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "category__typename",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "txstats__transactionsuccess",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "txstats__transactionreject",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "txstats__countsold",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "txstats__paymentverified",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "txstats__itemsoldpaymentverified",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "txstats__typename",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "stats__countview",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "stats__countreview",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "stats__counttalk",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "stats__rating",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "stats__typename",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "name",
+    "type": "STRING"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "__typename",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "minQty",
+        "type": "INTEGER"
+      },
+      {
+        "fields": [
+          {
+            "mode": "NULLABLE",
+            "name": "__typename",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "currency",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "value",
+            "type": "INTEGER"
+          }
+        ],
+        "mode": "NULLABLE",
+        "name": "price",
+        "type": "RECORD"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "wholesale",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "istradein",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "isos",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ispowermerchant",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "iswishlist",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "iscod",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "price__value",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "price__currency",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "price__typename",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__campaignid",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__campaigntype",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__campaigntypename",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__campaignidentifier",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__background",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__percentageamount",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__originalprice",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__discountedprice",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__originalstock",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__stock",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__stocksoldpercentage",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__threshold",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__startdate",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__enddate",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__enddateunix",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__applinks",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__isappsonly",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__isactive",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__hidegimmick",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign__typename",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "thematiccampaign__additionalinfo",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "thematiccampaign__background",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "thematiccampaign__campaignname",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "thematiccampaign__icon",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "thematiccampaign__typename",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "stock__usestock",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "stock__value",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "stock__stockwording",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "stock__typename",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "variant__isvariant",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "variant__parentid",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "variant__typename",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "iscashback__percentage",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "iscashback__typename",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "isfreeongkir__isactive",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "isfreeongkir__typename",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "preorder__duration",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "preorder__timeunit",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "preorder__isactive",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "preorder__preorderindays",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "preorder__typename",
+    "type": "STRING"
+  }
+]

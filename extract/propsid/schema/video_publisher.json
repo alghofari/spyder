@@ -1,0 +1,37 @@
+[
+  {
+    "name": "date",
+    "mode": "NULLABLE",
+    "type": "DATE"
+  },
+  {
+    "name": "revenue",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "impression",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "cpm",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "viewability",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "ctr",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "load_timestamp",
+    "mode": "NULLABLE",
+    "type": "TIMESTAMP"
+  }
+]

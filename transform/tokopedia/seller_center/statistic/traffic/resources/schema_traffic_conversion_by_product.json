@@ -1,0 +1,117 @@
+[
+  {
+    "name": "start_date",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "end_date",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "nama_produk",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "dibagikan_oleh_seller",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "hasil_pencarian_organik",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "facebook_cpas",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "collaborative_ads",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "dari_marketing_tokopedia",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "dari_halaman_toko",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "hasil_pencarian_dalam_tokopedia",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "flash_sale_toko",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "kejar_diskon_spesial",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "kejar_diskon",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "deal_of_the_day",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "flash_sale",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "kunjungan_langsung_ke_halaman_produk",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "lainnya",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "official_store",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "upload_tstamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "tokopedia_play",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "rilisan_spesial",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "flash_sale_tokopedia",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "promo_tokopedia",
+    "type": "FLOAT"
+  }
+]

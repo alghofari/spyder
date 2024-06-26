@@ -1,0 +1,202 @@
+[
+  {
+    "name": "kode_pesanan",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "status_pesanan",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "status_terverifikasi",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "waktu_pesanan",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "waktu_pesanan_selesai",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "waktu_pesanan_terverifikasi",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "kode_produk",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "nama_produk",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "id_model",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "l1_kategori_global",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "l2_kategori_global",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "l3_kategori_global",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "kode_promo",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "harga_rp",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "jumlah",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "nama_affiliate",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "username_affiliate",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "mcn_terhubung",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "id_komisi_pesanan",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "partner_kampanye",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "jenis_kampanye_penjual",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "nilai_pembelian_rp",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "jumlah_pengembalian_rp",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "tipe_pesanan",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "estimasi_komisi_per_produk_rp",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "estimasi_komisi_affiliate_per_produk_rp",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "persentase_komisi_affiliate_per_produk",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "estimasi_komisi_mcn_per_produk_rp",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "persentase_komisi_mcn_per_produk",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "estimasi_komisi_per_pesanan_rp",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "estimasi_komisi_affiliate_per_pesanan_rp",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "estimasi_komisi_mcn_per_pesanan_rp",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "catatan_produk",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "platform",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "tingkat_komisi",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "pengeluaran",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "status_pemotongan",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "metode_pemotongan",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "store_name",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "load_timestamp",
+    "mode": "NULLABLE",
+    "type": "TIMESTAMP"
+  }
+]

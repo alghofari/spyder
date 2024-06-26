@@ -1,0 +1,29 @@
+{
+  "gcp_parameter": {
+    "bq_project": "sirclo-prod",
+    "dataset": "bronze_seller_center_commerce",
+    "dataset_append": "temp_append"
+  },
+  "list_of_sheets": {
+    "produk dilihat - rincian waktu": {
+      "main_table": "tokopedia_traffic_product_viewed_by_time",
+      "key_column": ["waktu", "official_store"],
+      "order_by_column": ["upload_tstamp"]
+    },
+    "konversi - rincian waktu": {
+      "main_table": "tokopedia_traffic_conversion_by_time",
+      "key_column": ["waktu", "official_store"],
+      "order_by_column": ["upload_tstamp"]
+    },
+    "produk dilihat - rincian produk": {
+      "main_table": "tokopedia_traffic_product_viewed_by_product",
+      "key_column": ["nama_produk", "official_store", "start_date", "end_date"],
+      "order_by_column": ["upload_tstamp"]
+    },
+    "konversi - rincian produk": {
+      "main_table": "tokopedia_traffic_conversion_by_product",
+      "key_column": ["nama_produk", "official_store", "start_date", "end_date"],
+      "order_by_column": ["upload_tstamp"]
+    }
+  }
+}

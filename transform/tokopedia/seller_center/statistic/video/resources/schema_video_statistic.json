@@ -1,0 +1,52 @@
+[
+  {
+    "name": "judul",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "status",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "waktu_dibuat",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "penonton",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "produk_dilihat",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "tambah_ke_keranjang",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "produk_terjual",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "estimasi_pendapatan",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "store_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "load_timestamp",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  }
+]

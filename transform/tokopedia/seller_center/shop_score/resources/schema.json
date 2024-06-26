@@ -1,0 +1,110 @@
+[
+  {
+    "name": "shop_score",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "Shop performance score"
+  },
+  {
+    "name": "shop_score_start_date",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "description": "Shop performance score start period"
+  },
+  {
+    "name": "shop_score_end_date",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "description": "Shop performance score end period"
+  },
+  {
+    "name": "shop_score_next_update",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "description": "Shop performance score next update"
+  },
+  {
+    "name": "shop_level",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "Shop performance level"
+  },
+  {
+    "name": "shop_level_start_date",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "description": "Shop performance level start period"
+  },
+  {
+    "name": "shop_level_end_date",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "description": "Shop performance level end period"
+  },
+  {
+    "name": "shop_level_next_update",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "description": "Shop performance level next update"
+  },
+  {
+    "name": "finish_rate",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "description": "Order finish rate (percent)"
+  },
+  {
+    "name": "chat_and_discussion_reply_speed",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "Speed of replying to chats and discussions (minutes)"
+  },
+  {
+    "name": "median_verified_to_shipping_minute",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "description": "Speed of sending orders (minutes)"
+  },
+  {
+    "name": "chat_and_discussion_reply_rate",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "description": "Rate of replying to chats and discussions (percent)"
+  },
+  {
+    "name": "percent_good_rating",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "description": "Product reviews with 4+ stars (percent)"
+  },
+  {
+    "name": "count_unique_buyer",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "Unique buyer count"
+  },
+  {
+    "name": "count_active_days",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "Opened Tokopedia Seller in the last 90 days"
+  },
+  {
+    "name": "penalty",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "Penalty count"
+  },
+  {
+    "name": "official_store",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Official store name"
+  },
+  {
+    "name": "upload_tstamp",
+    "mode": "NULLABLE",
+    "type": "TIMESTAMP",
+    "description": "Upload timestamp"
+  }
+]

@@ -1,0 +1,383 @@
+[
+    {
+      "name": "order_item_id",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "order_type",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "guarantee",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "delivery_type",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "lazada_id",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "seller_sku",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "lazada_sku",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ware_house",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "create_time",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "update_time",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "rts_sla",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "tts_sla",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "order_number",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "invoice_required",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "invoice_number",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "delivered_date",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "customer_name",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "customer_email",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "national_registration_number",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "shipping_name",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "shipping_address",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "shipping_address2",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "shipping_address3",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "shipping_address4",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "shipping_address5",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "shipping_phone",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "shipping_phone2",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "shipping_city",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "shipping_post_code",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "shipping_country",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "shipping_region",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "billing_name",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "billing_addr",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "billing_addr2",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "billing_addr3",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "billing_addr4",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "billing_addr5",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "billing_phone",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "billing_phone2",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "billing_city",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "billing_post_code",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "billing_country",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "tax_code",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "branch_number",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "tax_invoice_requested",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "pay_method",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "paid_price",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "unit_price",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "seller_discount_total",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "shipping_fee",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "wallet_credit",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "item_name",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "variation",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "cd_shipping_provider",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "shipping_provider",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "shipment_type_name",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "shipping_provider_type",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "cd_tracking_code",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "tracking_code",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "tracking_url",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "shipping_provider_fm",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "tracking_code_fm",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "tracking_url_fm",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "promised_shipping_time",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "premium",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "status",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "buyer_failed_delivery_return_initiator",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "buyer_failed_delivery_reason",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "buyer_failed_delivery_detail",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "buyer_failed_delivery_user_name",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "bundle_id",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "bundle_discount",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "refund_amount",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "seller_note",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "store_name",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "upload_tstamp",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP"
+    }
+  ]
+  

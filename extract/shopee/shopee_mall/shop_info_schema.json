@@ -1,0 +1,47 @@
+[
+    {
+      "mode": "NULLABLE",
+      "name": "username",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "brand_name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "shopid",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "logo",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "logo_pc",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "shop_collection_id",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "ctime",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "brand_label",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "brand_url",
+      "type": "STRING"
+    }
+  ]

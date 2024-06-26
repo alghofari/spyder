@@ -1,0 +1,184 @@
+[
+    {
+      "name": "shopee_live",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "waktu_dimulai",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "durasi",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "produk_terkait",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "pengunjung",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "voucher_diklaim",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "koin_diklaim",
+      "mode": "NULLABLE",
+      "type": "FLOAT",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "pesanan_cod_dibuat_non_cod_dibayar",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "penjualan_pesanan_siap_dikirim",
+      "mode": "NULLABLE",
+      "type": "FLOAT",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "dilihat",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "penonton_terbanyak",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rata_rata_durasi_menonton",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "produk_diklik",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "produk_terkait_diklik",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "suka",
+      "mode": "NULLABLE",
+      "type": "FLOAT",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "share",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "jumlah_pengikut_baru",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "komentar",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "voucher_dilihat",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "voucher_digunakan",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "berapa_kali_koin_diklaim",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "koin_per_klaim",
+      "mode": "NULLABLE",
+      "type": "FLOAT",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "tingkat_konversi",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "penjualan_per_pembeli_rp",
+      "mode": "NULLABLE",
+      "type": "FLOAT",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "folder",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "load_timestamp",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP",
+      "description": null,
+      "fields": []
+    }
+  ]

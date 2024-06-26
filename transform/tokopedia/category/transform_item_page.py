@@ -1,0 +1,72 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Oct 21 14:27:38 2022
+
+@author: SIRCLO
+"""
+
+import os
+import pathlib
+
+import pandas as pd
+from bs4 import BeautifulSoup
+from helpers.bigquery_helper import df_to_bq
+from helpers.cloud_storage_helper import download_blob_to_local, list_blob_gcs
+from transform.tokopedia.item_page_dictionary import Item
+from transform.tokopedia.processing import Processing
+
+def get_category(category: str, level=1):
+    return category.rsplit('/', 2)[-level]
+
+
+def download_from_gcs(category: str, base_dir: str, base_path: str, bucket_name: str, run_date: str):
+    list_blob = list_blob_gcs(bucket_name, f"{base_path}/{run_date}/{category}_item")
+    for index, file in enumerate(list_blob):
+        print(f"list file in blob gcs: {file}")
+        file_name = f'{base_dir}/{category}_item_{str(index)}.html'
+        download_blob_to_local(bucket_name=bucket_name, local_file_name=file_name, gcs_blob_name=file)
+        print(f'download finish for {category}{index}')
+
+def cleansing_html(file_html: str, base_dir: str, target_table: str, run_date: str):
+    i = Item()
+    p = Processing()
+    read_html = open(f'{base_dir}/{file_html}', 'r', encoding="utf-8")
+    html = BeautifulSoup(read_html, 'html.parser')
+    for item in i.html_code_page_item:
+        args = [html]
+        args.extend(i.html_code_page_item[item])
+        print(item)
+        try:
+            value = i.df_formula[item](*args)
+        except Exception as e:
+            value = None
+            print(e)
+        print(value)
+        i.df_category[item].append(value)
+
+    df = pd.DataFrame.from_dict(i.df_category)
+    df.insert(0, 'run_date', run_date)
+    df['run_date'] = pd.to_datetime(df['run_date']).dt.date
+    path = "./transform/tokopedia/config_dtype_df_item.json"
+    df_to_bq(df, target_table, path)
+    return
+
+def main(category: str, base_path: str, bucket_name: str, target_table: str, run_date: str):
+    category = get_category(category)
+    base_dir = os.getcwd() + f'/{base_path}/{run_date}'
+    pathlib.Path(base_dir).mkdir(parents=True, exist_ok=True)
+    download_from_gcs(category=category,
+                      base_dir=base_dir,
+                      base_path=base_path,
+                      bucket_name=bucket_name,
+                      run_date=run_date)
+    filtered_html = [i for i in os.listdir(base_dir) if category in i]
+    print(filtered_html)
+    print(os.listdir(base_dir))
+    for html_file in filtered_html:
+        print("doing html")
+        try:
+            cleansing_html(file_html=html_file, base_dir=base_dir, target_table=target_table, run_date=run_date)
+        except Exception as e:
+            print(e)
+            continue

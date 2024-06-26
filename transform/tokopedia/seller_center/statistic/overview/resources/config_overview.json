@@ -1,0 +1,15 @@
+{
+    "gcp_parameter": {
+        "bq_project": "sirclo-prod",
+        "dataset": "bronze_seller_center_commerce",
+        "dataset_append": "temp_append"
+    },
+    "list_of_sheets" : {
+        "detail":{
+            "main_table" : "tokopedia_detail_overview",
+            "key_column": ["waktu", "official_store"],
+            "order_by_column": ["upload_tstamp"]
+        }                        
+
+    }
+  }

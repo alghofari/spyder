@@ -1,0 +1,14 @@
+{
+    "gcp_parameter": {
+        "bucket"          : "sirclo-data-marketplace",
+        "bq_project"      : "sirclo-prod",
+        "dataset"         : "bronze_seller_center_commerce",
+        "dataset_append"  : "temp_append",
+        "number_of_bucket": 0
+    },
+    "tokopedia_order" : {
+        "sheet_name" : "Laporan Penjualan",
+        "key_column" : ["invoice_number", "sku_name", "selling_price"],
+        "order_by_column" : ["upload_tstamp"]
+    }
+}

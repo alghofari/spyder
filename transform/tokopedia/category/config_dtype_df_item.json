@@ -1,0 +1,15 @@
+{
+  "run_date": "DATE",
+  "url":"STRING",
+  "product_id":"STRING",
+  "store_id": "STRING",
+  "sold": "INTEGER",
+  "stock":"INTEGER",
+  "seller_type":"STRING",
+  "item_rating":"FLOAT64",
+  "rating_count": "INTEGER",
+  "discussion_count": "INTEGER",
+  "response_time":"INTEGER",
+  "item_image": "STRING",
+  "item_desc": "STRING"
+}

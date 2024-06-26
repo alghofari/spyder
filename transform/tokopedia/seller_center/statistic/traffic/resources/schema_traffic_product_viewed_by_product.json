@@ -1,0 +1,117 @@
+[
+  {
+    "name": "start_date",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "end_date",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "nama_produk",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "dibagikan_oleh_seller",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "hasil_pencarian_organik",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "facebook_cpas",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "collaborative_ads",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "dari_marketing_tokopedia",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "dari_halaman_toko",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "hasil_pencarian_dalam_tokopedia",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "flash_sale_toko",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "kejar_diskon_spesial",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "kejar_diskon",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "deal_of_the_day",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "flash_sale",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "kunjungan_langsung_ke_halaman_produk",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "lainnya",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "official_store",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "upload_tstamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "tokopedia_play",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "rilisan_spesial",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "flash_sale_tokopedia",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "promo_tokopedia",
+    "type": "INTEGER"
+  }
+]

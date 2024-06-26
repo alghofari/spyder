@@ -1,0 +1,187 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "load_timestamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "category_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "productId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "sku",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "merchantCode",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "status",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "productName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "images",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "brand",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "itemCount",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "defaultSku",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "itemSku",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "url",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "location",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "level0Id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "uniqueSellingPoint",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "merchantName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "categoryIdHierarchy",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "categoryNameHierarchy",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "freshnessDaysCount",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "preorder",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "official",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "priceDisplay",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "strikeThroughPriceDisplay",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "discount",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "minPrice",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "offerPriceDisplay",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "isPriceRange",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "rating",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "count",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "absoluteRating",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "storeClosed",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "endDate",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "delayShipping",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "merchantBadge",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "soldRangeCountEn",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "soldRangeCountId",
+    "type": "STRING"
+  }
+]

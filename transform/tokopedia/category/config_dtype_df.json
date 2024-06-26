@@ -1,0 +1,16 @@
+{
+  "run_date": "DATE",
+  "product_id":"STRING",
+  "product_name":"STRING",
+  "final_price": "INTEGER",
+  "original_price": "INTEGER",
+  "product_url":"STRING",
+  "store_id":"STRING",
+  "store_name":"STRING",
+  "location":"STRING",
+  "l3_category": "STRING",
+  "l2_category": "STRING",
+  "l1_category": "STRING",
+  "sold": "INTEGER",
+  "store_type": "STRING"
+}

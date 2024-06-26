@@ -1,0 +1,51 @@
+[
+    {
+      "name": "no_pesanan",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "waktu_pembayaran",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "jenis_pesanan_tidak_terselesaikan",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "alasan",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "penjualan_total_jumlah_pesanan_tidak_termasuk_pesanan_yang_dibatalkan",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "folder",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "upload_timestamp",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP",
+      "description": null,
+      "fields": []
+    }
+  ]

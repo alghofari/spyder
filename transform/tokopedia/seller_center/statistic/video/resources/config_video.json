@@ -1,0 +1,14 @@
+{
+  "gcp_parameter": {
+    "bq_project": "sirclo-prod",
+    "dataset": "bronze_seller_center_commerce",
+    "dataset_append": "playground"
+  },
+  "list_of_sheets": {
+    "wawasan video": {
+      "main_table": "tokopedia_video_statistic",
+      "key_column": ["judul", "waktu_dibuat", "store_name"],
+      "order_by_column": ["load_timestamp"]
+    }
+  }
+}

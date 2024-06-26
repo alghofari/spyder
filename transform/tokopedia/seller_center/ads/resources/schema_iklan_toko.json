@@ -1,0 +1,87 @@
+[
+    {
+        "name": "start_date", 
+        "type": "DATE", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "end_date", 
+        "type": "DATE", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "tipe_iklan", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "nama_grup", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "status", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "pengeluaran", 
+        "type": "FLOAT", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "pendapatan", 
+        "type": "FLOAT", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "performa_tampil", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "tampil_teratas", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "tampil", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "klik", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "persentase_klik", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "total_terjual", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "persentase_terjual", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "rata_rata", 
+        "type": "FLOAT", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "official_store", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "upload_tstamp", 
+        "type": "TIMESTAMP", 
+        "mode": "NULLABLE"
+    }
+]

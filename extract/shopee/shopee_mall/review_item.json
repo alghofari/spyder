@@ -1,0 +1,32 @@
+[
+    {
+      "mode": "NULLABLE",
+      "name": "orderid",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "comment",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "rating_star",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "delivery_service",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product_quality",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "seller_service",
+      "type": "FLOAT"
+    }
+  ]

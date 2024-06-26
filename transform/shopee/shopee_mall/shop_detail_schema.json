@@ -1,0 +1,442 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "load_timestamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "shopid",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "userid",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "cover",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "follower_count",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "show_official_shop_label",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "is_preferred_plus_seller",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "is_shopee_verified",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "chat_disabled",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "rating_star",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "has_decoration",
+    "type": "BOOLEAN"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "email_verified",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "fbid",
+        "type": "STRING"
+      },
+      {
+        "fields": [
+          {
+            "mode": "NULLABLE",
+            "name": "can_post_feed",
+            "type": "BOOLEAN"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "is_kol",
+            "type": "BOOLEAN"
+          }
+        ],
+        "mode": "NULLABLE",
+        "name": "feed_account_info",
+        "type": "RECORD"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "following_count",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "hide_likes",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "is_seller",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "phone_verified",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "portrait",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "status",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "total_avg_star",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "username",
+        "type": "STRING"
+      }
+    ],
+    "mode": "NULLABLE",
+    "name": "account",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "last_active_time",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "vacation",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "is_blocking_owner",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "followed",
+    "type": "BOOLEAN"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "dd_item_card_2",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "deep_discount_enhancement",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "deep_discount_item_card",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "default_component_improvement",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "default_landing",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "fashion_shop_improvement",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "feeds_live_landing",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "header_tabs_layout",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "image_category",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "item_card",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "live_stream_auto_play",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "new_default_scp",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "product_one_per_row",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "remove_item_count_on_category_tab",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "tier_shop_category",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "two_tier_category",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "two_tier_category_for_layoutc",
+        "type": "STRING"
+      }
+    ],
+    "mode": "NULLABLE",
+    "name": "ab_test_info",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "description",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "item_count",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "response_rate",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "show_video_entry",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "video_entry_info",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign_hot_deal_discount_min",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "show_deco_entry",
+    "type": "BOOLEAN"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "rating_bad",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "rating_good",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "rating_normal",
+        "type": "INTEGER"
+      }
+    ],
+    "mode": "NULLABLE",
+    "name": "shop_rating",
+    "type": "RECORD"
+  },
+  {
+    "fields": [
+      {
+        "mode": "REPEATED",
+        "name": "rating_count",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "rating_star",
+        "type": "INTEGER"
+      }
+    ],
+    "mode": "NULLABLE",
+    "name": "buyer_rating",
+    "type": "RECORD"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "cancellation_rate",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "cancellation_visibility",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "cancellation_warning",
+        "type": "INTEGER"
+      }
+    ],
+    "mode": "NULLABLE",
+    "name": "seller_metrics",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "response_time",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ctime",
+    "type": "INTEGER"
+  },
+  {
+    "fields": [
+      {
+        "fields": [
+          {
+            "mode": "NULLABLE",
+            "name": "has_join_membership",
+            "type": "BOOLEAN"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "show_membership_tab",
+            "type": "BOOLEAN"
+          }
+        ],
+        "mode": "NULLABLE",
+        "name": "membership_tab",
+        "type": "RECORD"
+      },
+      {
+        "fields": [
+          {
+            "mode": "NULLABLE",
+            "name": "latest_item_ctime",
+            "type": "INTEGER"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "new_arrival_items_start_ts",
+            "type": "INTEGER"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "show_new_arrival_items",
+            "type": "BOOLEAN"
+          }
+        ],
+        "mode": "NULLABLE",
+        "name": "new_arrival_tab",
+        "type": "RECORD"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "show_campaign_tab",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "show_flash_sale_tab",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "show_live_tab",
+        "type": "BOOLEAN"
+      }
+    ],
+    "mode": "NULLABLE",
+    "name": "show_tab",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign_id",
+    "type": "INTEGER"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "disable_chat_performance",
+        "type": "BOOLEAN"
+      }
+    ],
+    "mode": "NULLABLE",
+    "name": "toggles",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "block_cb_user",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "video_rn_jump_url",
+    "type": "STRING"
+  }
+]

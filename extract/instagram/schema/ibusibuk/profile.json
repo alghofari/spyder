@@ -1,0 +1,57 @@
+[
+  {
+    "name": "name",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "username",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "followers_count",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "following_count",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "business_category",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "category",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "is_business_account",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "business_email",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "business_phone_number",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "biography",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "external_url",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  }
+]

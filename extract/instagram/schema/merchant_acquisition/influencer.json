@@ -1,0 +1,23 @@
+[
+  {
+    "name": "owner_username",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "shortcode",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "tagged_user",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  }
+]

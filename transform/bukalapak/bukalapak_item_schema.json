@@ -1,0 +1,460 @@
+[
+    {
+      "mode": "NULLABLE",
+      "name": "load_timestamp",
+      "type": "TIMESTAMP"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "active",
+      "type": "BOOLEAN"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "assurance",
+      "type": "BOOLEAN"
+    },
+    {
+      "mode": "REPEATED",
+      "name": "available_countries",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "condition",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "created_at",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "default_catalog",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "description",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "digital_product",
+      "type": "BOOLEAN"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "discount_percentage",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "discount_subsidy",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "REPEATED",
+      "name": "dynamic_tags",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "for_sale",
+      "type": "BOOLEAN"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "imported",
+      "type": "BOOLEAN"
+    },
+    {
+      "mode": "REPEATED",
+      "name": "international_couriers",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "max_quantity",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "merchant_return_insurance",
+      "type": "BOOLEAN"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "min_quantity",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "original_price",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "price",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "REPEATED",
+      "name": "product_sin",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "relisted_at",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "rush_delivery",
+      "type": "BOOLEAN"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "sku_id",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "special_campaign_id",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "state",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "stock",
+      "type": "INTEGER"
+    },
+    {
+      "fields": [
+        {
+          "mode": "NULLABLE",
+          "name": "name",
+          "type": "STRING"
+        },
+        {
+          "mode": "NULLABLE",
+          "name": "url",
+          "type": "STRING"
+        }
+      ],
+      "mode": "REPEATED",
+      "name": "tag_pages",
+      "type": "RECORD"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "updated_at",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "url",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "video_url",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "weight",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "without_shipping",
+      "type": "BOOLEAN"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "category__id",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "category__name",
+      "type": "STRING"
+    },
+    {
+      "mode": "REPEATED",
+      "name": "category__structure",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "category__url",
+      "type": "STRING"
+    },
+    {
+      "mode": "REPEATED",
+      "name": "images__large_urls",
+      "type": "STRING"
+    },
+    {
+      "mode": "REPEATED",
+      "name": "images__small_urls",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "rating__average_rate",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "rating__user_count",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "shipping__force_insurance",
+      "type": "BOOLEAN"
+    },
+    {
+      "mode": "REPEATED",
+      "name": "shipping__free_shipping_coverage",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "sla__type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "sla__value",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "stats__interest_count",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "stats__sold_count",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "stats__view_count",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "stats__waiting_payment_count",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__address__city",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__address__province",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__alert",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__avatar_url",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__brand_seller",
+      "type": "BOOLEAN"
+    },
+    {
+      "mode": "REPEATED",
+      "name": "store__carriers",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__closing__closed",
+      "type": "BOOLEAN"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__delivery_time",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__description",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__first_upload_product_at",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__flagship",
+      "type": "BOOLEAN"
+    },
+    {
+      "mode": "REPEATED",
+      "name": "store__groups",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__header_image__url",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__id",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__inactivity__inactive",
+      "type": "BOOLEAN"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__inactivity__last_appear_at",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__last_order_schedule__friday",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__last_order_schedule__monday",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__last_order_schedule__saturday",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__last_order_schedule__sunday",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__last_order_schedule__thursday",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__last_order_schedule__tuesday",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__last_order_schedule__wednesday",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__level__image_url",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__level__name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__premium_level",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__premium_top_seller",
+      "type": "BOOLEAN"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__rejection__recent_transactions",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__rejection__rejected",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__reviews__negative",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__reviews__positive",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__sla__type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__sla__value",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__subscriber_amount",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__term_and_condition",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store__url",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "warranty__cheapest",
+      "type": "BOOLEAN"
+    }
+  ]
+  

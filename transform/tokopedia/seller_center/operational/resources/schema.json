@@ -1,0 +1,98 @@
+[
+  {
+    "name": "chat_replied_rate",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "description": "Rate of replying to chats (percent)"
+  },
+  {
+    "name": "chat_replied_rate_target",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Rate of replying to chats target"
+  },
+  {
+    "name": "chat_replied_rate_description",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Rate of replying to chats description"
+  },
+  {
+    "name": "discussion_replied_rate",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "description": "Rate of replying to discussions (percent)"
+  },
+  {
+    "name": "discussion_replied_rate_target",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Rate of replying to discussions target"
+  },
+  {
+    "name": "discussion_replied_rate_description",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Rate of replying to discussions description"
+  },
+  {
+    "name": "chat_reply_speed",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "Speed of replying to chats (minutes)"
+  },
+  {
+    "name": "chat_reply_speed_target",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Speed of replying to chats target"
+  },
+  {
+    "name": "chat_reply_speed_description",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Speed of replying to chats description"
+  },
+  {
+    "name": "discussion_reply_speed",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "Speed of replying to discussions (minutes)"
+  },
+  {
+    "name": "discussion_reply_speed_target",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Speed of replying to discussions target"
+  },
+  {
+    "name": "discussion_reply_speed_description",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Speed of replying to discussions description"
+  },
+  {
+    "name": "start_date",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "description": "Start period"
+  },
+  {
+    "name": "end_date",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "description": "End period"
+  },
+  {
+    "name": "official_store",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Official store name"
+  },
+  {
+    "name": "upload_tstamp",
+    "mode": "NULLABLE",
+    "type": "TIMESTAMP",
+    "description": "Upload timestamp"
+  }
+]

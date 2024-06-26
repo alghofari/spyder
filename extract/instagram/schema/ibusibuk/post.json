@@ -1,0 +1,37 @@
+[
+  {
+    "name": "node_content",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "owner_username",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "shortcode",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "posted_at",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "post_caption",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "post_n_comments",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "post_n_likes",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  }
+]

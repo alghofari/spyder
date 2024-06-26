@@ -1,0 +1,112 @@
+insert into `sirclo-prod.bronze_marketplace.tokopedia_item` WITH ranked_data AS (
+  SELECT 
+    *, 
+    ROW_NUMBER() OVER (
+      PARTITION BY category_name 
+      ORDER BY 
+        DATE(load_timestamp) DESC
+    ) AS rank 
+  FROM 
+    `sirclo-prod.bronze_marketplace.tokopedia_item` 
+  where 
+    date(load_timestamp) >= '2023-09-01'
+) 
+SELECT 
+  DATE_SUB(CURRENT_TIMESTAMP(), INTERVAL 1 DAY), 
+  category_name, 
+  alias, 
+  isqa, 
+  id, 
+  shopid, 
+  shopname, 
+  minorder, 
+  maxorder, 
+  weight, 
+  weightunit, 
+  condition, 
+  status, 
+  url, 
+  needprescription, 
+  catalogid, 
+  isleasing, 
+  isblacklisted, 
+  menu__id, 
+  menu__name, 
+  menu__url, 
+  menu__typename, 
+  category__id, 
+  category__name, 
+  category__title, 
+  category__breadcrumburl, 
+  category__isadult, 
+  category__detail, 
+  category__typename, 
+  txstats__transactionsuccess, 
+  txstats__transactionreject, 
+  txstats__countsold, 
+  txstats__paymentverified, 
+  txstats__itemsoldpaymentverified, 
+  txstats__typename, 
+  stats__countview, 
+  stats__countreview, 
+  stats__counttalk, 
+  stats__rating, 
+  stats__typename, 
+  name, 
+  wholesale, 
+  istradein, 
+  isos, 
+  ispowermerchant, 
+  iswishlist, 
+  iscod, 
+  price__value, 
+  price__currency, 
+  price__typename, 
+  campaign__campaignid, 
+  campaign__campaigntype, 
+  campaign__campaigntypename, 
+  campaign__campaignidentifier, 
+  campaign__background, 
+  campaign__percentageamount, 
+  campaign__originalprice, 
+  campaign__discountedprice, 
+  campaign__originalstock, 
+  campaign__stock, 
+  campaign__stocksoldpercentage, 
+  campaign__threshold, 
+  campaign__startdate, 
+  campaign__enddate, 
+  campaign__enddateunix, 
+  campaign__applinks, 
+  campaign__isappsonly, 
+  campaign__isactive, 
+  campaign__hidegimmick, 
+  campaign__typename, 
+  thematiccampaign__additionalinfo, 
+  thematiccampaign__background, 
+  thematiccampaign__campaignname, 
+  thematiccampaign__icon, 
+  thematiccampaign__typename, 
+  stock__usestock, 
+  stock__value, 
+  stock__stockwording, 
+  stock__typename, 
+  variant__isvariant, 
+  variant__parentid, 
+  variant__typename, 
+  iscashback__percentage, 
+  iscashback__typename, 
+  isfreeongkir__isactive, 
+  isfreeongkir__typename, 
+  preorder__duration, 
+  preorder__timeunit, 
+  preorder__isactive, 
+  preorder__preorderindays, 
+  preorder__typename 
+FROM 
+  ranked_data 
+WHERE 
+  rank <= 120
+  AND DATE(load_timestamp) != DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY)
+ORDER BY 
+  DATE(load_timestamp) DESC

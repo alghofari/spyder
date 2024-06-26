@@ -1,0 +1,72 @@
+[
+    {
+        "name": "start_date",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "end_date",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "nama_produk",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sku",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "kategori",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "pendapatan_bersih_baru",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "produk_terjual",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "produk_dilihat",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "keranjang",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "wishlist",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "konversi",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "pesanan",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "official_store",
+        "type": "STRING"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "upload_tstamp",
+        "type": "TIMESTAMP"
+    }
+]

@@ -1,0 +1,10 @@
+{
+  "gcp_parameter": {
+    "bq_project": "sirclo-prod",
+    "dataset": "bronze_seller_center_commerce",
+    "dataset_append": "temp_append",
+    "main_table": "tokopedia_shop_score",
+    "key_column": ["shop_score_start_date", "shop_score_end_date", "shop_level_start_date", "shop_level_end_date", "official_store"],
+    "order_by_column": ["upload_tstamp"]
+  }
+}

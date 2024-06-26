@@ -1,0 +1,28 @@
+[
+    {
+      "mode": "NULLABLE",
+      "name": "name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "item_count",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "rating_star",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "response_rate",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "load_timestamp",
+      "type": "TIMESTAMP"
+    }
+  ]
+  

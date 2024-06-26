@@ -1,0 +1,23 @@
+[
+  {
+    "name": "hashtag",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "username",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "shortcode",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  }
+]

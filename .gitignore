@@ -1,0 +1,13 @@
+assets/
+cookies/
+config/
+
+venv
+__pycache__/
+
+.idea/
+.DS_Store
+.vscode
+
+# Local file for testing
+test_local_*

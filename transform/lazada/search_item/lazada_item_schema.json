@@ -1,0 +1,177 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "load_timestamp",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "category_name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "nid",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "itemid",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "image",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "issmartimage",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "originalpriceshow",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "priceshow",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ratingscore",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "review",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "location",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "sellername",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "sellerid",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "brandname",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "brandid",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "cheapest_sku",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "skuid",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "sku",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "showfeedback",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "price",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "restrictedage",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "instock",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "clicktrace",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "longimagedisplayable",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "promotionid",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "issponsored",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "isad",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "titemtype",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "skutype",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "itemurl",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "querystring",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "discount",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "originalprice",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "itemsoldcntshow",
+    "type": "STRING"
+  }
+]

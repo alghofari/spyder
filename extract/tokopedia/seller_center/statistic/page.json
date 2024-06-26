@@ -1,0 +1,24 @@
+{
+  "statistic": {
+    "overview": {
+      "homepage": "Wawasan Toko",
+      "header": "overview",
+      "payload": "statistic_overview"
+    },
+    "buyer": {
+      "homepage": "Wawasan Pembeli",
+      "header": "buyer",
+      "payload": "statistic_buyer"
+    },
+    "products": {
+      "homepage": "Wawasan Produk",
+      "header": "products",
+      "payload": "statistic_products"
+    },
+    "traffic": {
+      "homepage": "Wawasan Kunjungan",
+      "header": "traffic",
+      "payload": "statistic_traffic"
+    }
+  }
+}

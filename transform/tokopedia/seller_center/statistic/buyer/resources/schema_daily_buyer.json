@@ -1,0 +1,82 @@
+[
+    {
+        "name": "time_ordered", 
+        "type": "DATE", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "total_buyer", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "total_male_buyer", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "total_female_buyer", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "total_unannounced_buyer", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "total_new_buyer", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "total_reguler_buyer", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "total_loyal_buyer", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "total_adolescents_buyer", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "total_young_adult_buyer", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "total_adult_buyer", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "total_middle_aged_buyer", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "total_aged_buyer", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "total_followers", 
+        "type": "INTEGER", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "official_store", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "upload_tstamp", 
+        "type": "TIMESTAMP", 
+        "mode": "NULLABLE"
+    }
+]

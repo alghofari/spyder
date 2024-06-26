@@ -1,0 +1,142 @@
+[
+  {
+    "name": "creator_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "creator",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "nickname",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "launched_time",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "duration",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "revenue",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "products",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "different_products_sold",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "orders_created",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "orders_paid",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "unit_sales",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "buyers",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "average_price",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "co_rate",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "viewers",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "views",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "acu",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "pcu",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "avg_viewing_duration",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "comments",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "shares",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "likes",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "new_followers",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "product_impressions",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "product_clicks",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ctr",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "store_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "load_timestamp",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  }
+]

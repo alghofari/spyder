@@ -1,0 +1,170 @@
+[
+    {
+      "name": "tanggal",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "pengunjung_produk_kunjungan",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "halaman_produk_dilihat",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "produk_dikunjungi",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "pengunjung_melihat_tanpa_membeli",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "tingkat_pengunjung_melihat_tanpa_membeli",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "klik_pencarian",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "suka",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "pengunjung_produk_menambahkan_produk_ke_keranjang",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "dimasukkan_ke_keranjang_produk",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "tingkat_konversi_produk_dimasukkan_ke_keranjang",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "total_pembeli_pesanan_dibuat",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "produk_pesanan_dibuat",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "produk_dipesan",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "total_penjualan_pesanan_dibuat_idr",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "tingkat_konversi_pesanan_yang_dibuat",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "total_pembeli_pesanan_siap_dikirim",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "produk_pesanan_siap_dikirim",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "produk_siap_dikirim",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "penjualan_pesanan_siap_dikirim_idr",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "tingkat_konversi_pesanan_siap_dikirim",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "tingkat_konversi_pesanan_siap_dikirim_dibagi_pesanan_dibuat",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "folder",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "upload_timestamp",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP",
+      "description": null,
+      "fields": []
+    }
+  ]

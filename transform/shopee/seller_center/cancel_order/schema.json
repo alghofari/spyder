@@ -1,0 +1,257 @@
+[
+  {
+    "name": "no_pesanan",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "status_pesanan",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "alasan_pembatalan",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "status_pembatalan_pengembalian",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "no_resi",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "opsi_pengiriman",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "antar_ke_counter_pick_up",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "pesanan_harus_dikirimkan_sebelum_menghindari_keterlambatan",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "waktu_pengiriman_diatur",
+    "mode": "NULLABLE",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "waktu_pesanan_dibuat",
+    "mode": "NULLABLE",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "waktu_pembayaran_dilakukan",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "metode_pembayaran",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "sku_induk",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "nama_produk",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "nomor_referensi_sku",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "nama_variasi",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "harga_awal",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "harga_setelah_diskon",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "jumlah",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "returned_quantity",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "total_harga_produk",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "total_diskon",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "diskon_dari_penjual",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "diskon_dari_shopee",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "berat_produk",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "jumlah_produk_di_pesan",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "total_berat",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "voucher_ditanggung_penjual",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "cashback_koin",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "voucher_ditanggung_shopee",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "paket_diskon",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "paket_diskon_diskon_dari_shopee",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "paket_diskon_diskon_dari_penjual",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "potongan_koin_shopee",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "diskon_kartu_kredit",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "ongkos_kirim_dibayar_oleh_pembeli",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "estimasi_potongan_biaya_pengiriman",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "ongkos_kirim_pengembalian_barang",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "total_pembayaran",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "perkiraan_ongkos_kirim",
+    "mode": "NULLABLE",
+    "type": "FLOAT"
+  },
+  {
+    "name": "catatan_dari_pembeli",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "catatan",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "username_pembeli",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "nama_penerima",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "no_telepon",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "alamat_pengiriman",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "kotakabupaten",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "provinsi",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "waktu_pesanan_selesai",
+    "mode": "NULLABLE",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "folder",
+    "mode": "NULLABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "load_timestamp",
+    "mode": "NULLABLE",
+    "type": "TIMESTAMP"
+  }
+]

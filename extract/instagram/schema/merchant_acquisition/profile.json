@@ -1,0 +1,93 @@
+[
+  {
+    "name": "name",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "username",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "followers_count",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "following_count",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "business_category",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "category",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "is_business_account",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "business_email",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "business_phone_number",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "biography",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "external_url",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "whatsapp_number_from_insta_bio",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "whatsapp_number_from_insta_external_links",
+    "mode": "",
+    "type": "STRING",
+    "description": null,
+    "fields": []
+  }
+]

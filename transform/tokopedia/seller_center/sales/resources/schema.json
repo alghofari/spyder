@@ -1,0 +1,232 @@
+[
+  {
+    "name": "invoice_number",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "payment_date",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "last_status",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "order_completion_date",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "order_completion_time",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "order_cancel_date",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "order_cancel_time",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "product_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "product_type",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sku_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "buyer_product_record",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "seller_product_record",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "total_purchase",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "initial_price",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "bundling_price",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "discount_product",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "selling_price",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "total_subsidy_tkpd",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "total_price_voucher",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "type_of_voucher",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "code_of_voucher",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "shipping_price",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "shipping_assurance_price",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "total_cost_shipping",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "total_sales",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "buyer_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "buyer_phone_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "receiver_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "receiver_phone_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "buyer_address",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "buyer_city",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "buyer_province",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "courier_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "type_courier",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "receipt_number",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "shipment_goods_date",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "delivery_time",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "delivery_warehouse",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "campaign_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "bundling_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "free_shipping",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "cod",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+      "name": "deducted_product_count", 
+      "type": "STRING", 
+      "mode": "NULLABLE"
+  },
+  {
+      "name": "total_reduction_amount", 
+      "type": "STRING", 
+      "mode": "NULLABLE"
+  },
+  {
+    "name": "folder",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "upload_tstamp",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  }
+]

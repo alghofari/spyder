@@ -1,0 +1,128 @@
+[
+    {
+      "name": "tanggal",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "total_penjualan_idr",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "total_pesanan",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "penjualan_per_pesanan",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "produk_dilihat",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "total_pengunjung",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "tingkat_konversi_berdasarkan_total_pesanan_telah_dibayar",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "pesanan_dibatalkan",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "penjualan_dibatalkan",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "pesanan_dikembalikan",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "penjualan_dikembalikan",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "pembeli",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "total_pembeli_baru",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "total_pembeli_yang_ada",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "total_potensi_pembeli",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "tingkat_pembelian_berulang",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "folder",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "upload_timestamp",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP",
+      "description": null,
+      "fields": []
+    }
+  ]

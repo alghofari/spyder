@@ -1,0 +1,296 @@
+[
+  {
+    "name": "order_number",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "order_status",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "cancel_reason",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "cancel_return_status",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "receipt_number",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "shipping_option",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "seller_shipping_option",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "due_date_shipping_product",
+    "mode": "NULLABLE",
+    "type": "TIMESTAMP",
+    "fields": []
+  },
+  {
+    "name": "arrange_delivery_time",
+    "mode": "NULLABLE",
+    "type": "TIMESTAMP",
+    "fields": []
+  },
+  {
+    "name": "create_delivery_time",
+    "mode": "NULLABLE",
+    "type": "TIMESTAMP",
+    "fields": []
+  },
+  {
+    "name": "conducted_delivery_time",
+    "mode": "NULLABLE",
+    "type": "TIMESTAMP",
+    "fields": []
+  },
+  {
+    "name": "sku",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "product_name",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "sku_reference_number",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "variation_name",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "initiate_price",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "discount_incl_price",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "total_goods",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "fields": []
+  },
+  {
+    "name": "total_product_price",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "total_discount",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "discount_from_seller",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "discount_from_shopee",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "weight_product",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "total_order_product",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "fields": []
+  },
+  {
+    "name": "total_weight",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "voucher_from_seller",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "coin_cashback",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "voucher_from_shopee",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "discount_package",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "discount_shopee_package",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "discount_seller_package",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "coin_discount_shopee",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "discount_credit_card",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "buyer_shipping_price",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "estimate_discount_shipping_price",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "return_shipping_price",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "total_price",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "estimate_shipping_price",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "note_from_seller",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "note",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "buyer_username",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "buyer_name",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "buyer_phone_number",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "buyer_address",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "buyer_city",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "buyer_province",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "complete_delivery_time",
+    "mode": "NULLABLE",
+    "type": "TIMESTAMP",
+    "fields": []
+  },
+  {
+    "name": "folder",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "upload_timestamp",
+    "mode": "NULLABLE",
+    "type": "TIMESTAMP",
+    "fields": []
+  }
+]

@@ -1,0 +1,17 @@
+{
+    "gcp_parameter": {
+        "bq_project": "sirclo-prod",
+        "dataset": "bronze_seller_center_commerce"
+    },
+    "list_of_sheets" : {
+        "semua_iklan_produk":{
+            "sheet_name" : "Semua Iklan Produk",
+            "main_table" : "tokopedia_semua_iklan_produk_ads"
+            },
+        "iklan_toko":{
+            "sheet_name" : "Iklan Toko",
+            "main_table" : "tokopedia_iklan_toko_ads"
+        }                        
+
+    }
+  }
