@@ -53,8 +53,8 @@ def login_process(driver: any, mail_creds: str, pass_creds: str) -> None:
 def get_verification_code(execution_date: datetime, from_email: str, to_email: str) -> str:
     # IMAP settings
     imap_server = 'imap.gmail.com'
-    email_address = 'data-team@warungpintar.co'
-    password = 'efmjozbdtthwlglj'
+    email_address = 'xxx@wxxx.co'
+    password = 'xxx'
 
     # Connect to the IMAP server
     mail = imaplib.IMAP4_SSL(imap_server)

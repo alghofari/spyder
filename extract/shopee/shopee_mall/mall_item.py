@@ -79,8 +79,8 @@ def copy_profile(bucket_name, base_path):
 
 
 def login(driver): 
-    user = ["testosiris001@gmail.com", "testosiris002@gmail.com"]
-    pwd  = "T3st3r00!2@"
+    user = ["xxx@xxx.com", "xxx@xxx.com"]
+    pwd  = "xxx"
     user = random.choice(user)
 
     # get element username
